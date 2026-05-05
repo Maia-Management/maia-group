@@ -1,0 +1,3 @@
+# Pretty URLs for legal pages — match canonical tags in privacidad.html / terminos.html
+/privacidad   /privacidad.html   200
+/terminos     /terminos.html     200
