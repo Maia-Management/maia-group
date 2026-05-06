@@ -24,12 +24,15 @@
 <meta property="og:image" content="https://the-maia-group.com/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The Maia Group — Grupo empresarial diversificado en Santa Marta, Colombia">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="The Maia Group — Construyendo el Futuro de Santa Marta">
 <meta name="twitter:description" content="Grupo empresarial diversificado con sede en Santa Marta, Colombia.">
 <meta name="twitter:image" content="https://the-maia-group.com/og-image.png">
+<meta name="twitter:site" content="@themaiagroup">
+<meta name="twitter:creator" content="@themaiagroup">
 
 <!-- Favicons -->
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
@@ -43,33 +46,44 @@
 {
   "@context": "https://schema.org",
   "@type": "Organization",
+  "@id": "https://the-maia-group.com/#organization",
   "name": "The Maia Group",
-  "alternateName": "The Maia Group S.A.S.",
-  "description": "Grupo empresarial diversificado con sede en Santa Marta, Colombia.",
+  "alternateName": ["The Maia Group S.A.S.", "Grupo Maia", "Maia Group"],
+  "legalName": "The Maia Group S.A.S.",
+  "description": "Grupo empresarial diversificado con sede en Santa Marta, Colombia. 11 marcas operando en talento humano, derecho, bienes raíces, formación, construcción naval, botánicas, hospitalidad, retail y turismo.",
   "url": "https://the-maia-group.com",
+  "logo": "https://the-maia-group.com/og-image.png",
+  "image": "https://the-maia-group.com/og-image.png",
+  "foundingLocation": {"@type": "Place", "name": "Santa Marta, Magdalena, Colombia"},
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Santa Marta",
     "addressRegion": "Magdalena",
     "addressCountry": "CO"
   },
+  "areaServed": [
+    {"@type": "City", "name": "Santa Marta"},
+    {"@type": "Country", "name": "Colombia"},
+    {"@type": "Country", "name": "United States"}
+  ],
   "member": [
     {"@type": "Person", "name": "Andrew Gallie", "jobTitle": "CEO"},
     {"@type": "Person", "name": "Luz Gallie", "jobTitle": "COO"}
   ],
   "subOrganization": [
-    {"@type": "Organization", "name": "Maia Management", "url": "https://maia-management.com"},
-    {"@type": "Organization", "name": "Maia Legal", "url": "https://maia-legal.com"},
-    {"@type": "Organization", "name": "Maia Realty", "url": "https://maia-realty.com"},
-    {"@type": "Organization", "name": "Maia Masters", "url": "https://maia-masters.com"},
-    {"@type": "Organization", "name": "Mapaná Marine", "url": "https://mapana-marine.com"},
-    {"@type": "Organization", "name": "Be Vida Botánicas", "url": "https://be-vida.com"},
-    {"@type": "Organization", "name": "LlevaLleva", "url": "https://lleva-lleva.com"},
-    {"@type": "Organization", "name": "Juno House Studios", "url": "https://juno-retreats.com"},
-    {"@type": "Organization", "name": "El Sanatorio", "url": "https://el-sanatorio.com"},
-    {"@type": "Organization", "name": "Ruta Colombia", "url": "https://ruta-colombia.com"},
-    {"@type": "Organization", "name": "Sushi Pop"}
+    {"@type": "Organization", "name": "Maia Management", "description": "Adquisición de talento bilingüe y headhunting", "url": "https://maia-management.com"},
+    {"@type": "Organization", "name": "Maia Legal", "description": "Servicios legales corporativos y migratorios", "url": "https://maia-legal.com"},
+    {"@type": "Organization", "name": "Maia Realty", "description": "Bienes raíces y desarrollo inmobiliario", "url": "https://maia-realty.com"},
+    {"@type": "EducationalOrganization", "name": "Maia Masters Academy", "description": "Cursos cortos de formación profesional en Santa Marta", "url": "https://maia-masters.com"},
+    {"@type": "Organization", "name": "Mapaná Marine", "description": "Constructor de RIBs tactical-luxury — exportación a dealers internacionales", "url": "https://mapana-marine.com"},
+    {"@type": "Organization", "name": "Be Vida Botánicas", "description": "Bebidas botánicas artesanales", "url": "https://be-vida.com"},
+    {"@type": "Organization", "name": "LlevaLleva", "description": "Plataforma de comercio local y delivery en Santa Marta", "url": "https://lleva-lleva.com"},
+    {"@type": "Organization", "name": "Juno House Studios", "description": "Hospitalidad boutique y retiros", "url": "https://juno-retreats.com"},
+    {"@type": "Organization", "name": "El Sanatorio", "description": "Concepto de hospitalidad y bienestar", "url": "https://el-sanatorio.com"},
+    {"@type": "Organization", "name": "Ruta Colombia", "description": "Turismo y experiencias en Colombia", "url": "https://ruta-colombia.com"},
+    {"@type": "Organization", "name": "Sushi Pop", "description": "Restaurante japonés en Santa Marta"}
   ],
+  "numberOfEmployees": {"@type": "QuantitativeValue", "minValue": 25},
   "knowsLanguage": ["es", "en"]
 }
 </script>
