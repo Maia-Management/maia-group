@@ -17,7 +17,7 @@
       'nav.companies': 'Empresas',
       'nav.contact': 'Contacto',
       'hero.tagline': 'Construyendo el Futuro de Santa Marta',
-      'hero.sub': 'Grupo empresarial diversificado &middot; 11 marcas &middot; 1 visi\u00f3n',
+      'hero.sub': 'Grupo empresarial diversificado &middot; 14 marcas &middot; 1 visi\u00f3n',
       'hero.cta': 'Conoce Nuestras Empresas',
       'about.tag': 'Qui\u00e9nes Somos',
       'about.title': 'Un ecosistema de empresas construido para la costa Caribe',
@@ -34,9 +34,13 @@
       'brands.subtitle': 'Cada marca opera de forma independiente, respaldada por la solidez del grupo.',
       'brand.management.desc': 'Adquisici\u00f3n de talento y headhunting biling\u00fce',
       'brand.legal.desc': 'Servicios jur\u00eddicos para empresas y expatriados',
+      'brand.juridica.desc': 'Servicios jur\u00eddicos en espa\u00f1ol para empresas y personas',
+      'brand.contable.desc': 'Contabilidad y servicios tributarios para empresas',
+      'brand.marketing.desc': 'Agencia de marketing y comunicaci\u00f3n digital',
       'brand.realty.desc': 'Bienes ra\u00edces en la costa Caribe colombiana',
       'brand.masters.desc': 'Desarrollo profesional y masterclasses',
       'brand.bevida.desc': 'Bebidas bot\u00e1nicas y productos para cocteler\u00eda',
+      'brand.botanicas.desc': 'Bot\u00e1nicas artesanales y productos naturales',
       'brand.lleva.desc': 'Clasificados locales y marketplace',
       'brand.juno.desc': 'Retiros creativos y estudios de contenido',
       'brand.marine.desc': 'Construcci\u00f3n naval y operaciones mar\u00edtimas',
@@ -44,6 +48,10 @@
       'brand.ruta.desc': 'Turismo, viajes y experiencias en Colombia',
       'brand.sushi.desc': 'Sushi callejero de autor &middot; En desarrollo',
       'brand.coming-soon': 'En desarrollo',
+      'cookie.title': 'Aviso de privacidad y cookies',
+      'cookie.text': 'Conforme a la <strong>Ley 1581 de 2012</strong> y el Decreto 1377 de 2013 de Colombia, <strong>The Maia Group S.A.S.</strong> (NIT 901.862.977-7), con domicilio en Calle 24 #3-99, Edificio Banco de Bogot\u00e1, Suite 1102, Level 11, Santa Marta, Magdalena, Colombia, usa cookies t\u00e9cnicas estrictamente necesarias para el funcionamiento del sitio. Al continuar navegando aceptas el tratamiento de tus datos seg\u00fan nuestra <a href="/privacidad">Pol\u00edtica de Privacidad</a>.',
+      'cookie.accept': 'Aceptar',
+      'cookie.reject': 'Rechazar',
       'contact.tag': 'Contacto',
       'contact.title': 'Hablemos',
       'contact.text': '\u00bfInteresado en saber m\u00e1s sobre The Maia Group o alguna de nuestras empresas? Estamos aqu\u00ed para atender tus consultas.',
@@ -51,7 +59,7 @@
       'contact.location-label': 'Ubicaci\u00f3n',
       'contact.hours-label': 'Horario',
       'contact.hours-value': 'Lun \u2013 Vie: 8:00 \u2013 18:00 COT',
-      'contact.location-value': 'Santa Marta, Magdalena, Colombia',
+      'contact.location-value': 'Calle 24 #3-99, Edificio Banco de Bogotá, Suite 1102, Level 11, Santa Marta, Magdalena, Colombia',
       'form.name': 'Nombre',
       'form.name-placeholder': 'Tu nombre completo',
       'form.email-placeholder': 'tu@email.com',
@@ -66,8 +74,8 @@
       'footer.legal': 'Legal',
       'footer.privacy': 'Pol\u00edtica de Privacidad',
       'footer.terms': 'T\u00e9rminos de Uso',
-      'footer.copyright': '\u00a9 2026 The Maia Group S.A.S. Todos los derechos reservados.',
-      'footer.address': 'Colombia &middot; Santa Marta, Magdalena',
+      'footer.copyright': '\u00a9 2026 The Maia Group S.A.S. &middot; NIT 901.862.977-7 &middot; Todos los derechos reservados.',
+      'footer.address': 'Calle 24 #3-99, Edificio Banco de Bogot\u00e1, Suite 1102, Level 11 &middot; Santa Marta, Magdalena, Colombia',
       'whatsapp.label': 'WhatsApp'
     },
     en: {
@@ -75,7 +83,7 @@
       'nav.companies': 'Companies',
       'nav.contact': 'Contact',
       'hero.tagline': 'Building the Future of Santa Marta',
-      'hero.sub': 'Diversified business group &middot; 11 brands &middot; 1 vision',
+      'hero.sub': 'Diversified business group &middot; 14 brands &middot; 1 vision',
       'hero.cta': 'Explore Our Companies',
       'about.tag': 'About Us',
       'about.title': 'An ecosystem of companies built for the Caribbean coast',
@@ -92,9 +100,13 @@
       'brands.subtitle': 'Each brand operates independently, backed by the strength of the group.',
       'brand.management.desc': 'Bilingual talent acquisition &amp; headhunting',
       'brand.legal.desc': 'Legal services for companies and expatriates',
+      'brand.juridica.desc': 'Legal services in Spanish for companies and individuals',
+      'brand.contable.desc': 'Accounting and tax services for businesses',
+      'brand.marketing.desc': 'Marketing and digital communications agency',
       'brand.realty.desc': 'Real estate on the Colombian Caribbean coast',
       'brand.masters.desc': 'Professional development and masterclasses',
       'brand.bevida.desc': 'Botanical beverages and mixology products',
+      'brand.botanicas.desc': 'Artisan botanicals and natural products',
       'brand.lleva.desc': 'Local classifieds and marketplace',
       'brand.juno.desc': 'Creator retreats and content studios',
       'brand.marine.desc': 'Boat manufacturing and maritime operations',
@@ -102,6 +114,10 @@
       'brand.ruta.desc': 'Tourism, travel and experiences in Colombia',
       'brand.sushi.desc': 'Artisan street sushi &middot; In development',
       'brand.coming-soon': 'In development',
+      'cookie.title': 'Privacy &amp; cookie notice',
+      'cookie.text': 'In accordance with <strong>Law 1581 of 2012</strong> and Decree 1377 of 2013 of Colombia, <strong>The Maia Group S.A.S.</strong> (NIT 901.862.977-7), domiciled at Calle 24 #3-99, Edificio Banco de Bogotá, Suite 1102, Level 11, Santa Marta, Magdalena, Colombia, uses strictly necessary technical cookies for the operation of this site. By continuing to browse, you accept the processing of your data under our <a href="/privacidad">Privacy Policy</a>.',
+      'cookie.accept': 'Accept',
+      'cookie.reject': 'Reject',
       'contact.tag': 'Contact',
       'contact.title': "Let's Talk",
       'contact.text': 'Interested in learning more about The Maia Group or any of our companies? We are here to answer your inquiries.',
@@ -109,7 +125,7 @@
       'contact.location-label': 'Location',
       'contact.hours-label': 'Hours',
       'contact.hours-value': 'Mon \u2013 Fri: 8:00 AM \u2013 6:00 PM COT',
-      'contact.location-value': 'Santa Marta, Magdalena, Colombia',
+      'contact.location-value': 'Calle 24 #3-99, Edificio Banco de Bogotá, Suite 1102, Level 11, Santa Marta, Magdalena, Colombia',
       'form.name': 'Name',
       'form.name-placeholder': 'Your full name',
       'form.email-placeholder': 'you@email.com',
@@ -124,8 +140,8 @@
       'footer.legal': 'Legal',
       'footer.privacy': 'Privacy Policy',
       'footer.terms': 'Terms of Use',
-      'footer.copyright': '\u00a9 2026 The Maia Group S.A.S. All rights reserved.',
-      'footer.address': 'Colombia &middot; Santa Marta, Magdalena',
+      'footer.copyright': '\u00a9 2026 The Maia Group S.A.S. &middot; NIT 901.862.977-7 &middot; All rights reserved.',
+      'footer.address': 'Calle 24 #3-99, Edificio Banco de Bogot\u00e1, Suite 1102, Level 11 &middot; Santa Marta, Magdalena, Colombia',
       'whatsapp.label': 'WhatsApp'
     }
   };
@@ -173,11 +189,13 @@
   // FIX #4: Keep --nav-height CSS variable in sync with the actual rendered
   // nav height so scroll-margin-top always matches reality.
   function syncNavHeight() {
+    if (!nav) return;
     var h = nav.offsetHeight;
     document.documentElement.style.setProperty('--nav-height', h + 'px');
   }
 
   function handleNavScroll() {
+    if (!nav) return;
     if (window.scrollY > 60) {
       nav.classList.add('nav--scrolled');
     } else {
@@ -187,28 +205,32 @@
     syncNavHeight();
   }
 
-  window.addEventListener('scroll', handleNavScroll, { passive: true });
-  window.addEventListener('resize', syncNavHeight, { passive: true });
-  handleNavScroll();
-  syncNavHeight();
+  if (nav) {
+    window.addEventListener('scroll', handleNavScroll, { passive: true });
+    window.addEventListener('resize', syncNavHeight, { passive: true });
+    handleNavScroll();
+    syncNavHeight();
+  }
 
   // ── Mobile menu toggle ────────────────────────────────────────────────
   var navToggle = document.getElementById('navToggle');
   var navLinks = document.getElementById('navLinks');
 
-  navToggle.addEventListener('click', function () {
-    navToggle.classList.toggle('nav__toggle--active');
-    navLinks.classList.toggle('nav__links--mobile-open');
-    document.body.style.overflow = navLinks.classList.contains('nav__links--mobile-open') ? 'hidden' : '';
-  });
-
-  navLinks.querySelectorAll('.nav__link').forEach(function (link) {
-    link.addEventListener('click', function () {
-      navToggle.classList.remove('nav__toggle--active');
-      navLinks.classList.remove('nav__links--mobile-open');
-      document.body.style.overflow = '';
+  if (navToggle && navLinks) {
+    navToggle.addEventListener('click', function () {
+      navToggle.classList.toggle('nav__toggle--active');
+      navLinks.classList.toggle('nav__links--mobile-open');
+      document.body.style.overflow = navLinks.classList.contains('nav__links--mobile-open') ? 'hidden' : '';
     });
-  });
+
+    navLinks.querySelectorAll('.nav__link').forEach(function (link) {
+      link.addEventListener('click', function () {
+        navToggle.classList.remove('nav__toggle--active');
+        navLinks.classList.remove('nav__links--mobile-open');
+        document.body.style.overflow = '';
+      });
+    });
+  }
 
   // ── Language toggle ───────────────────────────────────────────────────
   var langToggle = document.getElementById('langToggle');
@@ -231,7 +253,7 @@
         // Read the synced nav height from the CSS variable (already a number in px)
         var navH = parseInt(
           getComputedStyle(document.documentElement).getPropertyValue('--nav-height'), 10
-        ) || nav.offsetHeight;
+        ) || (nav ? nav.offsetHeight : 72);
         // 24 px matches the extra breathing room in scroll-padding-top
         var offset = navH + 24;
         var top = target.getBoundingClientRect().top + window.pageYOffset - offset;
@@ -328,6 +350,7 @@
   var navLinksAll = document.querySelectorAll('.nav__link');
 
   function updateActiveLink() {
+    if (!nav) return;
     var scrollPos = window.scrollY + nav.offsetHeight + 100;
     sectionIds.forEach(function (id, index) {
       var section = document.getElementById(id);
@@ -344,12 +367,43 @@
 
   window.addEventListener('scroll', updateActiveLink, { passive: true });
 
+  // ── Cookie consent (Ley 1581 de 2012, Colombia) ───────────────────────
+  function initCookieBanner() {
+    var banner = document.getElementById('cookieBanner');
+    if (!banner) return;
+
+    var STORAGE_KEY = 'maia-cookie-consent';
+    var stored;
+    try { stored = localStorage.getItem(STORAGE_KEY); } catch (err) { stored = null; }
+
+    if (stored === 'accepted' || stored === 'rejected') return;
+
+    banner.hidden = false;
+    // Force reflow before adding visibility class so the slide-in transition runs
+    void banner.offsetHeight;
+    requestAnimationFrame(function () {
+      banner.classList.add('cookie-banner--visible');
+    });
+
+    function dismiss(value) {
+      try { localStorage.setItem(STORAGE_KEY, value); } catch (err) { /* ignore */ }
+      banner.classList.remove('cookie-banner--visible');
+      setTimeout(function () { banner.hidden = true; }, 450);
+    }
+
+    var acceptBtn = document.getElementById('cookieAccept');
+    var rejectBtn = document.getElementById('cookieReject');
+    if (acceptBtn) acceptBtn.addEventListener('click', function () { dismiss('accepted'); });
+    if (rejectBtn) rejectBtn.addEventListener('click', function () { dismiss('rejected'); });
+  }
+
   // ── Init ──────────────────────────────────────────────────────────────
   function init() {
     applyLang(currentLang);
     initReveal();
     updateActiveLink();
     syncNavHeight();
+    initCookieBanner();
   }
 
   if (document.readyState === 'loading') {
