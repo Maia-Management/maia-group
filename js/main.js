@@ -146,7 +146,8 @@
     }
   };
 
-  var currentLang = 'es';
+  // Read ?lang param from URL so Google's hreflang variants return the correct language
+  var currentLang = (new URLSearchParams(window.location.search).get('lang') === 'en') ? 'en' : 'es';
 
   function applyLang(lang) {
     currentLang = lang;
@@ -233,10 +234,22 @@
   }
 
   // ── Language toggle ───────────────────────────────────────────────────
+  // Apply language on page load (picks up ?lang=en from URL)
+  applyLang(currentLang);
+
   var langToggle = document.getElementById('langToggle');
   if (langToggle) {
     langToggle.addEventListener('click', function () {
-      applyLang(currentLang === 'es' ? 'en' : 'es');
+      var newLang = currentLang === 'es' ? 'en' : 'es';
+      applyLang(newLang);
+      // Keep URL in sync so the ?lang=en hreflang alternate always returns English content
+      var url = new URL(window.location.href);
+      if (newLang === 'en') {
+        url.searchParams.set('lang', 'en');
+      } else {
+        url.searchParams.delete('lang');
+      }
+      history.replaceState(null, '', url.toString());
     });
   }
 
