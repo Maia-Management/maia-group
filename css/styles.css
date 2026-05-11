@@ -40,7 +40,7 @@
   --sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 
   /* Spacing */
-  --section-pad: 120px;
+  --section-pad: 88px;
   --r: 8px;
 
   /* FIX #4: Define nav height as a CSS custom property so scroll-margin-top
@@ -70,9 +70,9 @@ body {
   background: var(--surface-0);
   color: var(--text-primary);
   overflow-x: hidden;
-  line-height: 1.7;
+  line-height: 1.72;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 ::selection {
@@ -174,10 +174,10 @@ textarea:focus-visible {
 /* Section Tag */
 .section-tag {
   display: inline-block;
-  font-size: 11px;
-  font-weight: 600;
+  font-size: 13px;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.12em;
   color: var(--orange);
   padding: 6px 14px;
   border: 1px solid var(--orange-dim);
@@ -394,10 +394,10 @@ html[lang="en"] .nav__logo-the {
 }
 
 .hero__location {
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.18em;
   color: var(--orange);
   margin-bottom: 32px;
   opacity: 0;
@@ -413,7 +413,7 @@ html[lang="en"] .nav__logo-the {
 
 .hero__title-the {
   display: none;
-  font-size: clamp(16px, 2.5vw, 22px);
+  font-size: clamp(18px, 2.5vw, 24px);
   font-weight: 300;
   font-style: italic;
   color: var(--text-secondary);
@@ -426,7 +426,7 @@ html[lang="en"] .hero__title-the {
 
 .hero__title-maia {
   display: block;
-  font-size: clamp(56px, 10vw, 120px);
+  font-size: clamp(64px, 10vw, 128px);
   font-weight: 500;
   line-height: 0.9;
   letter-spacing: -0.02em;
@@ -435,7 +435,7 @@ html[lang="en"] .hero__title-the {
 
 .hero__title-group {
   display: block;
-  font-size: clamp(32px, 5vw, 56px);
+  font-size: clamp(34px, 5vw, 60px);
   font-weight: 300;
   color: var(--text-secondary);
   letter-spacing: 0.15em;
@@ -445,7 +445,7 @@ html[lang="en"] .hero__title-the {
 
 .hero__tagline {
   font-family: var(--serif);
-  font-size: clamp(18px, 2.5vw, 24px);
+  font-size: clamp(20px, 2.6vw, 26px);
   font-weight: 300;
   font-style: italic;
   color: var(--text-secondary);
@@ -464,9 +464,9 @@ html[lang="en"] .hero__title-the {
 }
 
 .hero__sub {
-  font-size: 13px;
+  font-size: 15px;
   color: var(--text-muted);
-  letter-spacing: 0.05em;
+  letter-spacing: 0.04em;
   margin-bottom: 40px;
   opacity: 0;
   animation: fadeUp 0.8s 0.8s forwards;
@@ -476,12 +476,12 @@ html[lang="en"] .hero__title-the {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 14px 32px;
+  padding: 15px 34px;
   background: var(--orange);
   color: var(--navy-900);
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 600;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.03em;
   border-radius: var(--r);
   transition: all 0.3s;
   opacity: 0;
@@ -508,9 +508,9 @@ html[lang="en"] .hero__title-the {
 }
 
 .hero__scroll span {
-  font-size: 10px;
+  font-size: 12px;
   text-transform: uppercase;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.14em;
   color: var(--text-muted);
 }
 
@@ -557,19 +557,19 @@ html[lang="en"] .hero__title-the {
 
 .about__title {
   font-family: var(--serif);
-  font-size: clamp(28px, 4vw, 40px);
+  font-size: clamp(32px, 4.5vw, 46px);
   font-weight: 400;
-  line-height: 1.2;
+  line-height: 1.22;
   margin-bottom: 28px;
   color: var(--text-primary);
 }
 
 .about__text {
-  font-size: 15px;
-  line-height: 1.8;
+  font-size: 17px;
+  line-height: 1.75;
   color: var(--text-secondary);
-  margin-bottom: 20px;
-  max-width: 72ch;
+  margin-bottom: 22px;
+  max-width: 68ch;
 }
 
 .about__stats {
@@ -588,15 +588,15 @@ html[lang="en"] .hero__title-the {
 
 .stat__number {
   font-family: var(--serif);
-  font-size: 40px;
+  font-size: 44px;
   font-weight: 500;
   color: var(--orange);
   line-height: 1;
 }
 
 .stat__label {
-  font-size: 12px;
-  font-weight: 500;
+  font-size: 13px;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--text-muted);
@@ -632,14 +632,14 @@ html[lang="en"] .hero__title-the {
 
 .brands__title {
   font-family: var(--serif);
-  font-size: clamp(32px, 5vw, 48px);
+  font-size: clamp(36px, 5.2vw, 52px);
   font-weight: 400;
-  margin-bottom: 16px;
+  margin-bottom: 18px;
   color: var(--text-primary);
 }
 
 .brands__subtitle {
-  font-size: 15px;
+  font-size: 17px;
   color: var(--text-secondary);
   line-height: 1.7;
 }
@@ -729,9 +729,9 @@ html[lang="en"] .hero__title-the {
 
 .brand-card__name {
   font-family: var(--serif);
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
   color: var(--text-primary);
   transition: color 0.3s;
 }
@@ -741,16 +741,16 @@ html[lang="en"] .hero__title-the {
 }
 
 .brand-card__desc {
-  font-size: 14px;
+  font-size: 15.5px;
   color: var(--text-secondary);
-  line-height: 1.6;
+  line-height: 1.65;
 }
 
 .brand-card__tag {
   display: inline-block;
-  margin-top: 8px;
-  font-size: 10px;
-  font-weight: 600;
+  margin-top: 10px;
+  font-size: 11px;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--text-muted);
@@ -827,15 +827,15 @@ html[lang="en"] .hero__title-the {
 
 .contact__title {
   font-family: var(--serif);
-  font-size: clamp(32px, 5vw, 44px);
+  font-size: clamp(34px, 5vw, 48px);
   font-weight: 400;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
   color: var(--text-primary);
 }
 
 .contact__text {
-  font-size: 15px;
-  line-height: 1.8;
+  font-size: 17px;
+  line-height: 1.75;
   color: var(--text-secondary);
   margin-bottom: 36px;
 }
@@ -862,19 +862,20 @@ html[lang="en"] .hero__title-the {
 
 .contact__item-label {
   display: block;
-  font-size: 11px;
-  font-weight: 600;
+  font-size: 12.5px;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--text-muted);
-  margin-bottom: 2px;
+  margin-bottom: 4px;
 }
 
 .contact__item a,
 .contact__item span {
-  font-size: 14px;
+  font-size: 16px;
   color: var(--text-secondary);
   transition: color 0.3s;
+  line-height: 1.55;
 }
 
 .contact__item a:hover {
@@ -1356,10 +1357,10 @@ html[lang="en"] .footer__logo-the {
 }
 
 .about__leadership-title {
-  font-size: 11px;
-  font-weight: 600;
+  font-size: 12.5px;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.1em;
   color: var(--text-muted);
   margin-bottom: 20px;
 }
@@ -1377,8 +1378,8 @@ html[lang="en"] .footer__logo-the {
 }
 
 .about__leader-avatar {
-  width: 46px;
-  height: 46px;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
   background: var(--orange-dim);
   border: 1px solid rgba(242, 101, 34, 0.2);
@@ -1386,7 +1387,7 @@ html[lang="en"] .footer__logo-the {
   align-items: center;
   justify-content: center;
   font-family: var(--serif);
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   color: var(--orange);
   flex-shrink: 0;
@@ -1395,7 +1396,7 @@ html[lang="en"] .footer__logo-the {
 
 .about__leader-name {
   display: block;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   color: var(--text-primary);
   font-family: var(--sans);
@@ -1404,7 +1405,7 @@ html[lang="en"] .footer__logo-the {
 
 .about__leader-role {
   display: block;
-  font-size: 12px;
+  font-size: 13.5px;
   color: var(--text-muted);
 }
 
@@ -1508,15 +1509,15 @@ html[lang="en"] .footer__logo-the {
 
 .cookie-banner__title {
   font-family: var(--serif);
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   color: var(--text-primary);
-  margin: 0 0 8px;
+  margin: 0 0 10px;
 }
 
 .cookie-banner__text {
-  font-size: 13px;
-  line-height: 1.6;
+  font-size: 14.5px;
+  line-height: 1.65;
   color: var(--text-secondary);
   margin: 0;
 }
@@ -1543,10 +1544,10 @@ html[lang="en"] .footer__logo-the {
 
 .cookie-banner__btn {
   flex: 1;
-  padding: 10px 18px;
-  font-size: 13px;
+  padding: 11px 20px;
+  font-size: 14.5px;
   font-weight: 600;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.03em;
   border-radius: 6px;
   border: 1px solid transparent;
   transition: background 0.25s, border-color 0.25s, color 0.25s;
