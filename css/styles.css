@@ -1263,15 +1263,19 @@ html[lang="en"] .footer__logo-the {
 
 @media (max-width: 767px) {
   :root {
-    --section-pad: 80px;
+    --section-pad: 60px;
   }
 
   .about__stats {
-    gap: 32px;
+    gap: 28px;
   }
 
   .stat__number {
-    font-size: 32px;
+    font-size: 36px;
+  }
+
+  .stat__label {
+    font-size: 12px;
   }
 
   .brands__grid {
@@ -1283,6 +1287,14 @@ html[lang="en"] .footer__logo-the {
     gap: 16px;
   }
 
+  .brand-card__name {
+    font-size: 20px;
+  }
+
+  .brand-card__desc {
+    font-size: 15px;
+  }
+
   .brand-card__arrow {
     display: none;
   }
@@ -1290,11 +1302,23 @@ html[lang="en"] .footer__logo-the {
   .hero__scroll {
     display: none;
   }
+
+  .footer__bottom {
+    font-size: 13px;
+  }
+
+  .nav__logo-maia {
+    font-size: 22px;
+  }
 }
 
 @media (max-width: 480px) {
   :root {
-    --section-pad: 64px;
+    --section-pad: 48px;
+  }
+
+  body {
+    font-size: 17px;
   }
 
   .brand-card__icon {
@@ -1309,7 +1333,26 @@ html[lang="en"] .footer__logo-the {
   }
 
   .brand-card__name {
-    font-size: 17px;
+    font-size: 19px;
+  }
+
+  .about__text,
+  .contact__text {
+    font-size: 16.5px;
+  }
+
+  .footer__col h3 {
+    font-size: 12px;
+  }
+
+  .footer__col a {
+    font-size: 14px;
+  }
+
+  .nav__lang {
+    font-size: 12px;
+    padding: 6px 11px;
+    letter-spacing: 0.08em;
   }
 }
 
@@ -1599,5 +1642,40 @@ html[lang="en"] .footer__logo-the {
 @media (prefers-reduced-motion: reduce) {
   .cookie-banner {
     transition: none;
+  }
+}
+
+/* Small-mobile overrides that must follow later unconditional rules
+   (cascade order) to actually take effect. */
+@media (max-width: 480px) {
+  .nav__lang {
+    font-size: 12px;
+    padding: 6px 11px;
+    letter-spacing: 0.08em;
+  }
+
+  .about__leader-name {
+    font-size: 15px;
+  }
+
+  .about__leader-role {
+    font-size: 13px;
+  }
+
+  .footer__soon {
+    font-size: 14px;
+  }
+
+  .cookie-banner__title {
+    font-size: 18px;
+  }
+
+  .cookie-banner__text {
+    font-size: 13.5px;
+  }
+
+  .cookie-banner__btn {
+    font-size: 13.5px;
+    padding: 10px 16px;
   }
 }
