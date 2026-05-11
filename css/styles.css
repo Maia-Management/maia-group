@@ -230,7 +230,7 @@ textarea:focus-visible {
 }
 
 .nav__logo-the {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 300;
   font-style: italic;
   color: var(--text-secondary);
@@ -242,14 +242,14 @@ html[lang="en"] .nav__logo-the {
 }
 
 .nav__logo-maia {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 500;
   color: var(--text-primary);
   letter-spacing: 0.02em;
 }
 
 .nav__logo-group {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 300;
   color: var(--orange);
 }
@@ -266,7 +266,7 @@ html[lang="en"] .nav__logo-the {
 }
 
 .nav__link {
-  font-size: 13px;
+  font-size: 14.5px;
   font-weight: 500;
   color: var(--text-secondary);
   letter-spacing: 0.02em;
@@ -341,7 +341,7 @@ html[lang="en"] .nav__logo-the {
 }
 
 .nav__links--mobile-open .nav__link {
-  font-size: 24px;
+  font-size: 28px;
   font-family: var(--serif);
   font-weight: 400;
   color: var(--text-primary);
@@ -896,10 +896,10 @@ html[lang="en"] .hero__title-the {
 }
 
 .form-group label {
-  font-size: 12px;
-  font-weight: 500;
+  font-size: 13.5px;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.07em;
   color: var(--text-muted);
 }
 
@@ -907,13 +907,13 @@ html[lang="en"] .hero__title-the {
 .form-group select,
 .form-group textarea {
   width: 100%;
-  padding: 12px 16px;
+  padding: 13px 16px;
   background: var(--surface-1);
   border: 1px solid var(--border-color);
   border-radius: var(--r);
   color: var(--text-primary);
   font-family: var(--sans);
-  font-size: 14px;
+  font-size: 16px;
   transition: all 0.3s;
   outline: none;
 }
@@ -953,9 +953,9 @@ html[lang="en"] .hero__title-the {
   display: flex;
   align-items: flex-start;
   gap: 10px;
-  font-size: 13px;
+  font-size: 14px;
   color: var(--text-muted);
-  line-height: 1.5;
+  line-height: 1.55;
   cursor: pointer;
 }
 
@@ -982,10 +982,10 @@ html[lang="en"] .hero__title-the {
   align-items: center;
   justify-content: center;
   gap: 8px;
-  padding: 14px 32px;
+  padding: 15px 34px;
   background: var(--orange);
   color: var(--white);
-  font-size: 14px;
+  font-size: 15.5px;
   font-weight: 600;
   letter-spacing: 0.02em;
   border-radius: var(--r);
@@ -1043,7 +1043,7 @@ html[lang="en"] .hero__title-the {
 }
 
 .footer__logo-the {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 300;
   font-style: italic;
   color: var(--text-muted);
@@ -1055,22 +1055,22 @@ html[lang="en"] .footer__logo-the {
 }
 
 .footer__logo-maia {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 500;
   color: var(--text-primary);
 }
 
 .footer__logo-group {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 300;
   color: var(--orange);
 }
 
 .footer__tagline {
-  font-size: 14px;
+  font-size: 15.5px;
   color: var(--text-muted);
   line-height: 1.7;
-  max-width: 280px;
+  max-width: 300px;
 }
 
 .footer__links {
@@ -1086,19 +1086,19 @@ html[lang="en"] .footer__logo-the {
 }
 
 .footer__col h3 {
-  font-size: 11px;
-  font-weight: 600;
+  font-size: 12.5px;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.1em;
   color: var(--text-muted);
-  margin-bottom: 16px;
+  margin-bottom: 18px;
 }
 
 .footer__col a {
   display: block;
-  font-size: 13px;
+  font-size: 14.5px;
   color: var(--text-secondary);
-  padding: 4px 0;
+  padding: 5px 0;
   transition: color 0.3s;
 }
 
@@ -1109,10 +1109,11 @@ html[lang="en"] .footer__logo-the {
 .footer__bottom {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 6px;
   padding-top: 32px;
   border-top: 1px solid var(--border-color);
-  font-size: 12px;
+  font-size: 13.5px;
+  line-height: 1.6;
   color: var(--text-secondary);
 }
 
@@ -1165,7 +1166,7 @@ html[lang="en"] .footer__logo-the {
 
 .whatsapp-fab__label {
   font-family: var(--sans);
-  font-size: 13px;
+  font-size: 14.5px;
   font-weight: 600;
   white-space: nowrap;
   opacity: 0;
@@ -1325,11 +1326,11 @@ html[lang="en"] .footer__logo-the {
 }
 
 .nav__lang {
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 600;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.1em;
   color: var(--white);
-  padding: 6px 13px;
+  padding: 7px 14px;
   border: 1px solid rgba(255, 255, 255, 0.35);
   border-radius: 4px;
   cursor: pointer;
@@ -1462,9 +1463,9 @@ html[lang="en"] .footer__logo-the {
 
 .footer__soon {
   display: block;
-  font-size: 13px;
+  font-size: 14.5px;
   color: var(--text-muted);
-  padding: 4px 0;
+  padding: 5px 0;
   font-style: italic;
 }
 
