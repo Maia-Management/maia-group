@@ -49,6 +49,12 @@
     Cache-Control = "public, max-age=31536000, immutable"
 
 [[redirects]]
+  from = "https://www.the-maia-group.com/*"
+  to = "https://the-maia-group.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/privacidad.html"
   to = "/privacidad"
   status = 301
