@@ -26,7 +26,7 @@
   --gray-500: #6B665C;
   --text-primary: #EAE6E0;
   --text-secondary: #9E9A92;
-  --text-muted: #7A7670;
+  --text-muted: #8A8478;
 
   /* Surfaces */
   --surface-0: var(--navy-900);
@@ -1611,7 +1611,8 @@ html[lang="en"] .footer__logo-the {
 
 .cookie-banner__btn--accept {
   background: var(--orange);
-  color: var(--white);
+  color: var(--navy-900);
+  font-weight: 700;
 }
 
 .cookie-banner__btn--accept:hover {
