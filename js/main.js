@@ -48,7 +48,7 @@
       'brand.sushi.desc': 'Sushi callejero de autor &middot; En desarrollo',
       'brand.coming-soon': 'En desarrollo',
       'cookie.title': 'Aviso de privacidad y cookies',
-      'cookie.text': 'Conforme a la <strong>Ley 1581 de 2012</strong> y el Decreto 1377 de 2013 de Colombia, <strong>Maia Management S.A.S.</strong> (NIT 901.862.977-7), con domicilio en Calle 24 #3-99, Edificio Banco de Bogot\u00e1, Suite 1102, Level 11, Santa Marta, Magdalena, Colombia, usa cookies t\u00e9cnicas estrictamente necesarias para el funcionamiento del sitio. Al continuar navegando aceptas el tratamiento de tus datos seg\u00fan nuestra <a href="/privacidad">Pol\u00edtica de Privacidad</a>.',
+      'cookie.text': 'Conforme a la <strong>Ley 1581 de 2012</strong> y el Decreto 1377 de 2013 de Colombia, <strong>Maia Management S.A.S.</strong> (NIT 901.862.977-7), con domicilio en Calle 24 #3-99, Edificio Banco de Bogot\u00e1, Suite 1102, Piso 11, Santa Marta, Magdalena, Colombia, usa cookies t\u00e9cnicas estrictamente necesarias para el funcionamiento del sitio. Al continuar navegando aceptas el tratamiento de tus datos seg\u00fan nuestra <a href="/privacidad">Pol\u00edtica de Privacidad</a>.',
       'cookie.accept': 'Aceptar',
       'cookie.reject': 'Rechazar',
       'contact.tag': 'Contacto',
@@ -58,7 +58,7 @@
       'contact.location-label': 'Ubicaci\u00f3n',
       'contact.hours-label': 'Horario',
       'contact.hours-value': 'Lun \u2013 Vie: 8:00 \u2013 18:00 COT',
-      'contact.location-value': 'Calle 24 #3-99, Edificio Banco de Bogotá, Suite 1102, Level 11, Santa Marta, Magdalena, Colombia',
+      'contact.location-value': 'Calle 24 #3-99, Edificio Banco de Bogotá, Suite 1102, Piso 11, Santa Marta, Magdalena, Colombia',
       'form.name': 'Nombre',
       'form.name-placeholder': 'Tu nombre completo',
       'form.email-placeholder': 'tu@email.com',
@@ -74,7 +74,7 @@
       'footer.privacy': 'Pol\u00edtica de Privacidad',
       'footer.terms': 'T\u00e9rminos de Uso',
       'footer.copyright': '\u00a9 2026 Maia Management S.A.S. &middot; NIT 901.862.977-7 &middot; Todos los derechos reservados.',
-      'footer.address': 'Calle 24 #3-99, Edificio Banco de Bogot\u00e1, Suite 1102, Level 11 &middot; Santa Marta, Magdalena, Colombia',
+      'footer.address': 'Calle 24 #3-99, Edificio Banco de Bogot\u00e1, Suite 1102, Piso 11 &middot; Santa Marta, Magdalena, Colombia',
       'whatsapp.label': 'WhatsApp'
     },
     en: {
@@ -113,7 +113,7 @@
       'brand.sushi.desc': 'Artisan street sushi &middot; In development',
       'brand.coming-soon': 'In development',
       'cookie.title': 'Privacy &amp; cookie notice',
-      'cookie.text': 'In accordance with <strong>Law 1581 of 2012</strong> and Decree 1377 of 2013 of Colombia, <strong>Maia Management S.A.S.</strong> (NIT 901.862.977-7), domiciled at Calle 24 #3-99, Edificio Banco de Bogotá, Suite 1102, Level 11, Santa Marta, Magdalena, Colombia, uses strictly necessary technical cookies for the operation of this site. By continuing to browse, you accept the processing of your data under our <a href="/privacidad">Privacy Policy</a>.',
+      'cookie.text': 'In accordance with <strong>Law 1581 of 2012</strong> and Decree 1377 of 2013 of Colombia, <strong>Maia Management S.A.S.</strong> (NIT 901.862.977-7), domiciled at Calle 24 #3-99, Edificio Banco de Bogotá, Suite 1102, Floor 11, Santa Marta, Magdalena, Colombia, uses strictly necessary technical cookies for the operation of this site. By continuing to browse, you accept the processing of your data under our <a href="/privacidad">Privacy Policy</a>.',
       'cookie.accept': 'Accept',
       'cookie.reject': 'Reject',
       'contact.tag': 'Contact',
@@ -123,7 +123,7 @@
       'contact.location-label': 'Location',
       'contact.hours-label': 'Hours',
       'contact.hours-value': 'Mon \u2013 Fri: 8:00 AM \u2013 6:00 PM COT',
-      'contact.location-value': 'Calle 24 #3-99, Edificio Banco de Bogotá, Suite 1102, Level 11, Santa Marta, Magdalena, Colombia',
+      'contact.location-value': 'Calle 24 #3-99, Edificio Banco de Bogotá, Suite 1102, Floor 11, Santa Marta, Magdalena, Colombia',
       'form.name': 'Name',
       'form.name-placeholder': 'Your full name',
       'form.email-placeholder': 'you@email.com',
@@ -139,13 +139,27 @@
       'footer.privacy': 'Privacy Policy',
       'footer.terms': 'Terms of Use',
       'footer.copyright': '\u00a9 2026 Maia Management S.A.S. &middot; NIT 901.862.977-7 &middot; All rights reserved.',
-      'footer.address': 'Calle 24 #3-99, Edificio Banco de Bogot\u00e1, Suite 1102, Level 11 &middot; Santa Marta, Magdalena, Colombia',
+      'footer.address': 'Calle 24 #3-99, Edificio Banco de Bogot\u00e1, Suite 1102, Floor 11 &middot; Santa Marta, Magdalena, Colombia',
       'whatsapp.label': 'WhatsApp'
     }
   };
 
-  // Read ?lang param from URL so Google's hreflang variants return the correct language
-  var currentLang = (new URLSearchParams(window.location.search).get('lang') === 'en') ? 'en' : 'es';
+  // Default language: pages declare `<html data-lang-default="en">` to start in English
+  // (the standalone /en/ page). Anything else starts in Spanish. The ?lang=en URL
+  // parameter is still honoured as a soft override for legacy inbound links.
+  var docLangDefault = document.documentElement.getAttribute('data-lang-default') === 'en' ? 'en' : 'es';
+  var urlLang = new URLSearchParams(window.location.search).get('lang');
+  var currentLang = urlLang === 'en' ? 'en' : (urlLang === 'es' ? 'es' : docLangDefault);
+
+  // Legacy `/?lang=en` URLs (and the inverse) should land on the canonical indexable
+  // page. Only redirect on pages that have a real sibling — the home pair — to avoid
+  // bouncing the legal/success/404 pages, which only exist in Spanish.
+  if (document.documentElement.getAttribute('data-lang-toggle') === 'navigate' &&
+      urlLang && urlLang !== docLangDefault) {
+    var target = urlLang === 'en' ? '/en/' : '/';
+    window.location.replace(target);
+    return;
+  }
 
   function applyLang(lang) {
     currentLang = lang;
@@ -177,9 +191,23 @@
     var btn = document.getElementById('langToggle');
     if (btn) btn.textContent = lang === 'es' ? 'EN' : 'ES';
 
-    document.title = lang === 'en'
-      ? 'The Maia Group | Building the Future of Santa Marta'
-      : 'The Maia Group | Construyendo el Futuro de Santa Marta';
+    // Per-page title + meta description: read from <html data-title-es/-en> and
+    // data-desc-es/-en on the current page so legal/success pages keep their
+    // own titles instead of being clobbered by the home title.
+    var root = document.documentElement;
+    var titleEs = root.getAttribute('data-title-es');
+    var titleEn = root.getAttribute('data-title-en');
+    var descEs  = root.getAttribute('data-desc-es');
+    var descEn  = root.getAttribute('data-desc-en');
+
+    if (titleEs && titleEn) {
+      document.title = lang === 'en' ? titleEn : titleEs;
+    }
+
+    if (descEs && descEn) {
+      var metaDesc = document.querySelector('meta[name="description"]');
+      if (metaDesc) metaDesc.setAttribute('content', lang === 'en' ? descEn : descEs);
+    }
   }
 
   // ── Navigation scroll effect ──────────────────────────────────────────
@@ -235,19 +263,24 @@
   // Apply language on page load (picks up ?lang=en from URL)
   applyLang(currentLang);
 
+  // Language toggle behaviour:
+  //   `<html data-lang-toggle="navigate">` (set on /index.html and /en/index.html)
+  //     → toggle navigates between the two indexable language URLs ('/' ↔ '/en/').
+  //   anywhere else (legal/success/404) → toggle does the legacy in-page swap so
+  //     those side pages still respond without needing duplicate /en/ copies.
   var langToggle = document.getElementById('langToggle');
   if (langToggle) {
+    var toggleMode = document.documentElement.getAttribute('data-lang-toggle');
+
     langToggle.addEventListener('click', function () {
       var newLang = currentLang === 'es' ? 'en' : 'es';
-      applyLang(newLang);
-      // Keep URL in sync so the ?lang=en hreflang alternate always returns English content
-      var url = new URL(window.location.href);
-      if (newLang === 'en') {
-        url.searchParams.set('lang', 'en');
-      } else {
-        url.searchParams.delete('lang');
+
+      if (toggleMode === 'navigate') {
+        window.location.href = newLang === 'en' ? '/en/' : '/';
+        return;
       }
-      history.replaceState(null, '', url.toString());
+
+      applyLang(newLang);
     });
   }
 
