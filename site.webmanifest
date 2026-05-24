@@ -1,0 +1,34 @@
+{
+  "name": "The Maia Group",
+  "short_name": "Maia Group",
+  "description": "Diversified business group headquartered in Santa Marta, Colombia. 16 brands across talent, legal, accounting, marketing, real estate, education, marine, botanicals, hospitality and tourism.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0B1D33",
+  "theme_color": "#0B1D33",
+  "lang": "es-CO",
+  "icons": [
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
