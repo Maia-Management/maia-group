@@ -414,7 +414,8 @@
     initReveal();
     updateActiveLink();
     syncNavHeight();
-    initCookieBanner();
+    // initCookieBanner() removed — superseded by consent-banner.js (Consent Mode v2, default-denied).
+    // The legacy #cookieBanner markup stays inert (hidden, never un-hidden). Safe to delete in a cleanup pass.
   }
 
   if (document.readyState === 'loading') {
