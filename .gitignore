@@ -20,3 +20,9 @@ Thumbs.db
 # Logs
 *.log
 npm-debug.log*
+
+# Internal audit/strategy docs — never deploy (publish dir = repo root)
+AUDIT*.md
+DEEP-AUDIT*.md
+SITE-AUDIT*.md
+FINAL-AUDIT*.md
