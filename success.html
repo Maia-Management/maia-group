@@ -219,7 +219,11 @@
       var n = document.getElementById('countNum');
       if (t) t.textContent = 'Message sent!';
       if (p) p.textContent = 'Thank you for reaching out to The Maia Group. We have received your message and will reply within 1–2 business days.';
-      if (c) c.innerHTML = 'Redirecting to home in <strong id="countNum">' + count + '</strong> seconds\u2026';
+      if (c) {
+        c.innerHTML = 'Redirecting to home in <strong id="countNum">' + count + '</strong> seconds\u2026';
+        // Re-bind countEl after innerHTML replacement (the old node became detached)
+        countEl = document.getElementById('countNum');
+      }
     }
   })();
 </script>
