@@ -48,7 +48,7 @@
       'brand.sushi.desc': 'Sushi callejero de autor &middot; En desarrollo',
       'brand.coming-soon': 'En desarrollo',
       'cookie.title': 'Aviso de privacidad y cookies',
-      'cookie.text': 'Conforme a la <strong>Ley 1581 de 2012</strong> y el Decreto 1377 de 2013 de Colombia, <strong>Maia Management S.A.S.</strong> (NIT 901.862.977-7), con domicilio en Calle 24 #3-99, Edificio Banco de Bogot\u00e1, Suite 1102, Piso 11, Santa Marta, Magdalena, Colombia, usa cookies t\u00e9cnicas estrictamente necesarias para el funcionamiento del sitio. Al continuar navegando aceptas el tratamiento de tus datos seg\u00fan nuestra <a href="/privacidad">Pol\u00edtica de Privacidad</a>.',
+      'cookie.text': 'Conforme a la <strong>Ley 1581 de 2012</strong> y el Decreto 1377 de 2013 de Colombia, <strong>Maia Management S.A.S.</strong> (NIT 901.862.977-7), con domicilio en Calle 24 #3-99, Edificio Banco de Bogot\u00e1, Suite 1102, Level 11, Santa Marta, Magdalena, Colombia, usa cookies t\u00e9cnicas estrictamente necesarias para el funcionamiento del sitio. Al continuar navegando aceptas el tratamiento de tus datos seg\u00fan nuestra <a href="/privacidad">Pol\u00edtica de Privacidad</a>.',
       'cookie.accept': 'Aceptar',
       'cookie.reject': 'Rechazar',
       'contact.tag': 'Contacto',
@@ -74,7 +74,7 @@
       'footer.privacy': 'Pol\u00edtica de Privacidad',
       'footer.terms': 'T\u00e9rminos de Uso',
       'footer.copyright': '\u00a9 2026 Maia Management S.A.S. &middot; NIT 901.862.977-7 &middot; Todos los derechos reservados.',
-      'footer.address': 'Calle 24 #3-99, Edificio Banco de Bogot\u00e1, Suite 1102, Piso 11 &middot; Santa Marta, Magdalena, Colombia',
+      'footer.address': 'Calle 24 #3-99, Edificio Banco de Bogot\u00e1, Suite 1102, Level 11 &middot; Santa Marta, Magdalena, Colombia',
       'whatsapp.label': 'WhatsApp'
     },
     en: {
@@ -113,7 +113,7 @@
       'brand.sushi.desc': 'Artisan street sushi &middot; In development',
       'brand.coming-soon': 'In development',
       'cookie.title': 'Privacy &amp; cookie notice',
-      'cookie.text': 'In accordance with <strong>Law 1581 of 2012</strong> and Decree 1377 of 2013 of Colombia, <strong>Maia Management S.A.S.</strong> (NIT 901.862.977-7), domiciled at Calle 24 #3-99, Edificio Banco de Bogotá, Suite 1102, Floor 11, Santa Marta, Magdalena, Colombia, uses strictly necessary technical cookies for the operation of this site. By continuing to browse, you accept the processing of your data under our <a href="/privacidad">Privacy Policy</a>.',
+      'cookie.text': 'In accordance with <strong>Law 1581 of 2012</strong> and Decree 1377 of 2013 of Colombia, <strong>Maia Management S.A.S.</strong> (NIT 901.862.977-7), domiciled at Calle 24 #3-99, Edificio Banco de Bogotá, Suite 1102, Level 11, Santa Marta, Magdalena, Colombia, uses strictly necessary technical cookies for the operation of this site. By continuing to browse, you accept the processing of your data under our <a href="/privacidad">Privacy Policy</a>.',
       'cookie.accept': 'Accept',
       'cookie.reject': 'Reject',
       'contact.tag': 'Contact',
@@ -139,7 +139,7 @@
       'footer.privacy': 'Privacy Policy',
       'footer.terms': 'Terms of Use',
       'footer.copyright': '\u00a9 2026 Maia Management S.A.S. &middot; NIT 901.862.977-7 &middot; All rights reserved.',
-      'footer.address': 'Calle 24 #3-99, Edificio Banco de Bogot\u00e1, Suite 1102, Floor 11 &middot; Santa Marta, Magdalena, Colombia',
+      'footer.address': 'Calle 24 #3-99, Edificio Banco de Bogot\u00e1, Suite 1102, Level 11 &middot; Santa Marta, Magdalena, Colombia',
       'whatsapp.label': 'WhatsApp'
     }
   };
@@ -447,7 +447,8 @@
     initReveal();
     updateActiveLink();
     syncNavHeight();
-    initCookieBanner();
+    // initCookieBanner() removed — superseded by consent-banner.js (Consent Mode v2, default-denied).
+    // The legacy #cookieBanner markup stays inert (hidden, never un-hidden). Safe to delete in a cleanup pass.
   }
 
   if (document.readyState === 'loading') {
